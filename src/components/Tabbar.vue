@@ -4,6 +4,7 @@
     <van-tabbar-item replace to="/video" icon="video-o">视频</van-tabbar-item>
     <van-tabbar-item replace to="/book" icon="description">小说</van-tabbar-item>
     <van-tabbar-item replace to="/music" icon="service-o">音乐</van-tabbar-item>
+    <van-tabbar-item replace to="/chat" icon="chat-o">聊天室</van-tabbar-item>
   </van-tabbar>
 </template>
 

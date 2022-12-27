@@ -88,6 +88,14 @@ export const constantRoutes = [
     }
   },
   {
+    path: '/chat',
+    component: () => import('@/views/entertainment/chat'),
+    hidden: true,
+    meta: {
+      title: '聊天室'
+    }
+  },
+  {
     path: '/404',
     component: () => import('@/views/error-page/404'),
     hidden: true
